@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    package="com.bus.sahilshah.app">
     <application
         android:label="bus"
         android:name="${applicationName}"

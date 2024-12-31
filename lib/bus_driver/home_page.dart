@@ -229,7 +229,7 @@ class _BusDriverHomePageState extends State<BusDriverHomePage> {
         child: Center(
           child: Text(
             selectedRoutes.isEmpty ? 'Select a Route' : 'Go to Next Stop',
-            style: const TextStyle(fontSize: 18),
+            style: const TextStyle(fontSize: 14),
           ),
         ),
       ),

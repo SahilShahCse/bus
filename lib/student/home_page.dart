@@ -88,17 +88,17 @@ class _HomePageForStudentState extends State<HomePageForStudent> {
                       ? 'no bus from this location :<'
                       : '$busesPassingThroughRoute more will visit your stop :>',
                   style: const TextStyle(
-                    fontSize: 22,
+                    fontSize: 14,
                     fontWeight: FontWeight.bold,
                     color: Colors.black,
                   ),
                 ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 12),
           if (selectedRoute != null && (busesPassingThroughRoute != 0))
             Text(
               'Get ready for the buses passing through your selected location!',
               style: TextStyle(
-                fontSize: 16,
+                fontSize: 12,
                 color: Colors.grey[700],
               ),
             ),
@@ -142,7 +142,7 @@ class _HomePageForStudentState extends State<HomePageForStudent> {
         child: Center(
           child: Text(
             'Select Route',
-            style: const TextStyle(fontSize: 18),
+            style: const TextStyle(fontSize: 14),
           ),
         ),
       ),

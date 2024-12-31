@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '713809864729',
     projectId: 'busapp-78485',
     storageBucket: 'busapp-78485.firebasestorage.app',
-    iosBundleId: 'com.example.bus',
+    iosBundleId: 'com.bus.sahilshah.app',
   );
 }
